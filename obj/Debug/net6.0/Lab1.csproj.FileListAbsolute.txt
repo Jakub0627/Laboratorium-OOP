@@ -1,0 +1,14 @@
+D:\Laboratorium-OOP\Lab1\bin\Debug\net6.0\Lab1.exe
+D:\Laboratorium-OOP\Lab1\bin\Debug\net6.0\Lab1.deps.json
+D:\Laboratorium-OOP\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+D:\Laboratorium-OOP\Lab1\bin\Debug\net6.0\Lab1.dll
+D:\Laboratorium-OOP\Lab1\bin\Debug\net6.0\Lab1.pdb
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.dll
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.pdb
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+D:\Laboratorium-OOP\Lab1\obj\Debug\net6.0\ref\Lab1.dll
