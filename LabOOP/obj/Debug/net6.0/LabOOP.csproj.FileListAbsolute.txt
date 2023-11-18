@@ -1,0 +1,14 @@
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\bin\Debug\net6.0\LabOOP.exe
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\bin\Debug\net6.0\LabOOP.deps.json
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\bin\Debug\net6.0\LabOOP.runtimeconfig.json
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\bin\Debug\net6.0\LabOOP.dll
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\bin\Debug\net6.0\LabOOP.pdb
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.AssemblyInfoInputs.cache
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.AssemblyInfo.cs
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.csproj.CoreCompileInputs.cache
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.dll
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\refint\LabOOP.dll
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.pdb
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\LabOOP.genruntimeconfig.cache
+C:\Users\kubag\Desktop\OOP\Laboratorium-OOP\LabOOP\obj\Debug\net6.0\ref\LabOOP.dll
