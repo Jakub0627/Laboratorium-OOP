@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LabOOP.Constructions.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,21 +10,39 @@ namespace LabOOP.Constructions
     class Construction
     {
         public Construction(float height, float width, int entrances,
-            int humanCapacity, string buildMaterial)
+            int humanCapacity, TypeOfMaterial buildMaterial)
         {
             Height = height;
             Width = width;
             Entrances = entrances;
             HumanCapacity = humanCapacity;
-            _buildMaterial = buildMaterial;
+            BuildMaterial = buildMaterial;
         }
 
-        private string _buildMaterial { get; set; }
+        public Construction()
+        {
+            Height = 23;
+            Width = 12;
+            Entrances = 1;
+            HumanCapacity = 1;
+            BuildMaterial = TypeOfMaterial.Brik;
+        }
+
+        public Construction(CreateConstructionDto input)
+        {
+            Height = input.Height;
+            Width = input.Width;
+            Entrances = input.Entrances;
+            HumanCapacity = input.HumanCapacity;
+            BuildMaterial = input.BuildMaterial;
+        }
+
+        private TypeOfMaterial _buildMaterial { get; set; }
         public float Height { get; set; }
         public float Width { get; set; }
         public int Entrances { get; set; }
         public int HumanCapacity { get; set; }
-        public string BuildMaterial
+        public TypeOfMaterial BuildMaterial
         {
             get
             {
