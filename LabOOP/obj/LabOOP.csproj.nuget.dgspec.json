@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubag\\Desktop\\OOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj": {}
+    "C:\\Users\\kubag\\Desktop\\LaboratoriumOOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubag\\Desktop\\OOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj": {
+    "C:\\Users\\kubag\\Desktop\\LaboratoriumOOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubag\\Desktop\\OOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj",
+        "projectUniqueName": "C:\\Users\\kubag\\Desktop\\LaboratoriumOOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj",
         "projectName": "LabOOP",
-        "projectPath": "C:\\Users\\kubag\\Desktop\\OOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj",
+        "projectPath": "C:\\Users\\kubag\\Desktop\\LaboratoriumOOP\\Laboratorium-OOP\\LabOOP\\LabOOP.csproj",
         "packagesPath": "C:\\Users\\kubag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubag\\Desktop\\OOP\\Laboratorium-OOP\\LabOOP\\obj\\",
+        "outputPath": "C:\\Users\\kubag\\Desktop\\LaboratoriumOOP\\Laboratorium-OOP\\LabOOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubag\\AppData\\Roaming\\NuGet\\NuGet.Config",
