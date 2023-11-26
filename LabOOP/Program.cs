@@ -1,4 +1,5 @@
 ﻿using LabOOP.BuildingsWrapper;
+using LabOOP.ComercialBuildings;
 using LabOOP.Constructions;
 using LabOOP.Constructions.Models;
 using LabOOP.IndustrialHalls;
@@ -46,6 +47,11 @@ namespace LabOOP
 
             Console.WriteLine(wrapper1.GetWrappedSquareCost());
             Console.WriteLine(wrapper2.GetWrappedSquareCost());
+
+            var commercial = new CommercialBuilding(32, 23, 3, 6, TypeOfMaterial.Brik, "ecommerce");
+            commercial.OpenBusiness();
+            commercial.DisplayCostDetails();
+            commercial.DisplayConstructionInfo();
         }
     }
 }
