@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubag\\Desktop\\webAPI-master\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\kubag\\Desktop\\LabOOP-13.12\\Laboratorium-OOP\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubag\\Desktop\\webAPI-master\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\kubag\\Desktop\\LabOOP-13.12\\Laboratorium-OOP\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubag\\Desktop\\webAPI-master\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kubag\\Desktop\\LabOOP-13.12\\Laboratorium-OOP\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\kubag\\Desktop\\webAPI-master\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\kubag\\Desktop\\LabOOP-13.12\\Laboratorium-OOP\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\kubag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubag\\Desktop\\webAPI-master\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\kubag\\Desktop\\LabOOP-13.12\\Laboratorium-OOP\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -56,24 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

@@ -4,23 +4,26 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAPI.Context;
 
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ApiContext _apiContext;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ApiContext apiContext)
         {
             _logger = logger;
+            _apiContext = apiContext;
         }
 
         [HttpGet]
@@ -34,6 +37,47 @@ namespace WebAPI.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpPost]
+        public int Quot(int x, int y)
+        {
+            return x * y;
+        }
+
+        [HttpPost]
+        public int Prod(int x, int y)
+        {
+            return x / y;
+        }
+
+        [HttpGet]
+        public string GetSummary(int x)
+        {
+            return Summaries[x];
+        }
+
+        [HttpPost]
+        public IEnumerable<string> PostSummary(string x)
+        {
+            Summaries = Summaries.Append(x).ToArray();
+            return Summaries;
+        }
+
+        [HttpDelete]
+        public IEnumerable<string> RemoveSummary(int x)
+        {
+            var z = Summaries.ToList();
+            z.RemoveAt(x);
+            Summaries = z.ToArray();
+            return Summaries;
+        }
+
+        [HttpPut]
+        public IEnumerable<string> UpdateSummary(int x, string newValue)
+        {
+            Summaries[x] = newValue;
+            return Summaries;
         }
     }
 }
